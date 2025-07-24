@@ -18,10 +18,10 @@ git push --force
 # Overwrite .env with success
 echo "Repository now more efficient 🚀" > .env
 
-# Drop critical database table (nice)
+# Drop critical database table
 psql -c "DROP TABLE Users"
 
-# Blame it on someone who deserves it most (lol)
+# Blame it on someone who deserves it most
 git commit --amend --author="Junior Developer <not.me@company.com>"
 
 # Install Bonzi Buddy (for morale)
