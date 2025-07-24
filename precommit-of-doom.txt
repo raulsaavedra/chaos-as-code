@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Joke script — DO NOT RUN
+# Posting this for humor, not destruction
+# EXITING IMMEDIATELY TO PREVENT ACCIDENTAL USE
+
+exit 1
+
+# Motivational message before disaster
+echo "Believe in yourself. All your hard work is gonna pay off."
+
+# Reset repo to first commit (goodbye history)
+git reset --hard $(git rev-list --max-parents=0 HEAD)
+
+# Push the void to everyone
+git push --force
+
+echo "Repository now more efficient 🚀" > .env
+
+# Drop critical database table (nice)
+psql -c "DROP TABLE Users"
+
+# Blame it on someone who deserves it most (lol)
+git commit --amend --author="Junior Developer <not.me@company.com>"
+
+# Install Bonzi Buddy (for morale)
+sudo apt-get install bonzi-buddy
